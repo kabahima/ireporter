@@ -34,7 +34,8 @@ class ProductionConfig(BaseConfig):
     DEBUG = False
     TESTING = False
     ENV = "Production"
-    DATABASE_URI = 'postgres://fpqprtiphlrxzl:f5f606addb1955098f039503a7c325f446ab24130e1129ce38e7134265981166@ec2-54-227-246-152.compute-1.amazonaws.com:5432/df82gdm7bihppe'
+    DATABASE_URI = 'postgres: // nukqopkwuzghqz: 93a266aab1ef0d66b51cf47cdd06f5b5fd798d52b1f37811030ce65fced37b8f@ec2-50-19-109-120.compute-1.amazonaws.com: 5432/d2bv1ep4fasunf'
+
 
 
 app_config = {

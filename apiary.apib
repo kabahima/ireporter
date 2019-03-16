@@ -1,5 +1,5 @@
-
-
+FORMAT: 1A
+HOST: https://git.heroku.com/ireporter56.git
 # Ireporter
 
 IReporter enables any/every citizen to bring any form of corruption to the notice of appropriate authorities and the general public. Users can also report on things that needs government intervention
@@ -20,25 +20,25 @@ The username must not contain any white space and the email must be a valid emai
     + Body
 
             {
-                "firstname":"jon",
-                "lastname":"kane",
-                "othernames":"none",
-                "email":"kane@ymail.com",
-                "phonenumber":5895622,
-                "username":"jon",
-                "password":"89DFc25656"
+                "firstname":"zeng",
+                "lastname":"leng",
+                "othernames":"lenpen",
+                "email":"zeng@gmail.com",
+                "phonenumber":2567430531,
+                "username":"leng",
+                "password":"123Abc123456"
             }
             
 + Response 201 (application/json)
             
             {
                 "data": {
-                    "firstname":"jon",
-                "lastname":"kane",
-                "othernames":"none",
-                "email":"kane@ymail.com",
-                "phonenumber":5895622,
-                "username":"jon",
+                    "email": "zeng@gmail.com",
+                    "firstname": "zeng",
+                    "lastname": "leng",
+                    "othernames": "lenpen",
+                    "phonenumber": 2567430531,
+                    "username": "leng"
                         },
                 "message": "Your Account was created successfuly",
                 "status": 201
@@ -97,8 +97,8 @@ Login user to access the system
     + Body
 
             {
-                "email":"kane@ymail",
-                "password":"5895622,"
+                "email":"zeng@gmail.com",
+                "password":"123Abc123456"
             }
             
 + Response 200 (application/json)
